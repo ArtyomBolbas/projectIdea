@@ -10,5 +10,8 @@ public class Runner {
 
         Mover mover = () -> "I walk";
         System.out.println(mover.getValue());
+
+        Mover flying = () -> "I fly";
+        System.out.println(flying.getValue());
     }
 }
